@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/885211364216414289/977275369331781782/PngItem_3956445.png">
+    <script src="https://kit.fontawesome.com/45c54577bd.js" crossorigin="anonymous"></script>
+    <title>Can't find button?</title>
+
+
+    <style>
+
+
+        html 
+        {
+            scroll-behavior: smooth;
+        }
+
+        body 
+        {
+            width:100%;
+            overflow-x: hidden;
+            padding: 0;
+            margin: 0;
+            font-family: tahoma;
+            /* background-color: rgb(14, 14, 14); */
+            background-color: rgb(14, 14, 14);
+            /* animation: animate 16s ease-in-out infinite; */
+            background-size: cover;
+        }
+
+        .cover{
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            background-color: rgb(14, 14, 14);
+        }	
+
+        .center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            font-size: 20px;
+        }
+
+        .btn
+        {
+            position: absolute;
+            top: 95%;
+            left: 70%;
+            transform: translate(-50%, -50%);
+			background: none;
+			font-size: 18px;
+			cursor: pointer;
+			margin: 12px 0;
+            border: none;
+            color: rgb(19, 19, 19);
+		}
+
+        .btn:hover
+        {
+			color: #222222;
+            background-size: cover;
+			transition: 1s;
+            cursor: pointer;
+            border: none;
+            color: white;
+		}
+
+    </style>
+</head>
+<body>
+
+    <div class="cover">  
+
+        <div class="center">
+				
+            <center>
+                    <font style="font-family: Tahoma; color: white;"> Looks like you've reach this site.<br> 
+                    Can't see any buttons? Well, try to find it in the screen.
+                    
+                    </font><br>
+            </center>
+
+        </div>
+
+            <a><button  class = "btn" onclick="alertAlert()">I am not a button. Don't click me.</button></a>
+
+
+            <script>
+                function alertAlert() {
+                  alert("AAAAAAAAAAA! You found me :< So, i'll take you to another website with a virus one.");
+                  areYouReady1();
+                
+                }
+
+                function areYouReady1(){
+                    alert("Are you ready?");
+                    areYouReady2();
+                }
+
+                function areYouReady2(){
+                    alert("Are you sure?");
+                    areYouReady3();
+                }
+
+                function areYouReady3(){
+                    alert("Really?");
+                    areYouReady4();
+                }
+
+                function areYouReady4(){
+                    alert("Okay, then. Press okay.");
+                    location.href = "https://orangejuice2022.github.io/TrojanVirus/";
+                }
+                </script>
+    </div>
+
+    
+</body>
+</html>
